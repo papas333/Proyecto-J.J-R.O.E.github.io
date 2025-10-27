@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flavor Crown - Restaurante Gourmet</title>
+  <link rel="stylesheet" href="Estilito2.css" />
+  <link rel="icon" href="assets/logo.png" />
+</head>
+<body>
+
+  <!-- 🔥 Video de fondo -->
+  <video autoplay muted loop id="video-bg">
+    <source src="assets/video.mp4" type="video/mp4">
+  </video>
+
+  <!-- 🧭 Header con logo y menú hamburguesa -->
+  <header>
+  <div class="logo">
+    <img src="assets/logo.png" alt="Logo Flavor Crown" class="logo-img" width="20px" height="20px">
+    <h1>Flavor Crown</h1>
+  </div>
+
+  </div>
+
+  <div class="menu-toggle" id="menu-toggle">
+    <span></span><span></span><span></span>
+  </div>
+  <div>
+  <nav id="side-menu" class="side-menu">
+    <ul>
+      <li><a href="index.html">🏠 Inicio</a></li>
+      <li><a href="menu.html">🍽 Menú</a></li>
+      <li><a href="reservas.html">📅 Reservas</a></li>
+      <li><a href="acerca.html">ℹ️ Acerca de Nosotros</a></li>
+      <li><a href="contacto.html">📍 Contacto y Sucursales</a></li>
+      <li class="submenu">
+        🌐 Idioma:
+        <select id="idioma">
+          <option value="es">Español</option>
+          <option value="en">English</option>
+        </select>
+      </li>
+    </ul>
+    <div class="footer-menu">
+   <p>© 2025 Flavor Crown</p>
+        <p><small>Derechos reservados | CBTIS 131|Camacho Garcia Jezrael & Rodriguez Ortiz Emanuel </small></p>
+  </nav>
+  </div>
+</header>
+
+  <!-- 💫 Sección principal con bienvenida -->
+  <main class="hero">
+    <div class="hero-content">
+      <img src="assets/logo.png" alt="Flavor Crown Logo" class="hero-logo">
+      <h2 class="frase">✨ Sabores que coronan tu paladar 👑 ✨</h2>
+      <button class="btn-explorar" onclick="window.location.href='menu.html'">
+        Explorar Menú
+      </button>
+    </div>
+  </main>
+
+  <script src="mains.js"></script>
+
+</body>
+</html>

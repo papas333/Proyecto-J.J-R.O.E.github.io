@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto & Sucursales - Flavor Crown</title>
+  <link rel="stylesheet" href="Estilito2.css" />
+  <link rel="icon" href="assets/logo.png" />
+</head>
+<body class="contact-page">
+
+  <!-- HEADER -->
+  <header>
+  <div class="logo">
+    <img src="assets/logo.png" alt="Logo Flavor Crown" class="logo-img" width="20px" height="20px">
+    <h1>Flavor Crown</h1>
+  </div>
+
+  </div>
+
+  <div class="menu-toggle" id="menu-toggle">
+    <span></span><span></span><span></span>
+  </div>
+
+  <nav id="side-menu" class="side-menu">
+    <ul>
+      <li><a href="index.html">🏠 Inicio</a></li>
+      <li><a href="menu.html">🍽 Menú</a></li>
+      <li><a href="reservas.html">📅 Reservas</a></li>
+      <li><a href="acerca.html">ℹ️ Acerca de Nosotros</a></li>
+      <li><a href="contacto.html">📍 Contacto y Sucursales</a></li>
+      <li class="submenu">
+        🌐 Idioma:
+        <select id="idioma">
+          <option value="es">Español</option>
+          <option value="en">English</option>
+        </select>
+      </li>
+    </ul>
+    <div class="footer-menu">
+      <p>© 2025 Flavor Crown</p>
+        <p><small>Derechos reservados | CBTIS 131|Camacho Garcia Jezrael & Rodriguez Ortiz Emanuel </small></p>
+    </div>
+  </nav>
+</header>
+
+
+  <!-- MAIN -->
+  <main>
+    <section class="contact-hero">
+      <div class="overlay"></div>
+      <div class="contact-text">
+        <h2>Contáctanos & Sucursales</h2>
+        <p>Encuentra tu sabor favorito, estés donde estés.</p>
+      </div>
+    </section>
+
+    <section class="contact-content">
+      <h2>Nuestras Sucursales</h2>
+
+      <div class="sucursal">
+        <h3>🏛 Sucursal Principal - CBTIS 131</h3>
+        <p><strong>Dirección:</strong> Blvd. José María Morelos, León, Gto., México</p>
+        <p><strong>Teléfono:</strong> +52 477 123 4567</p>
+        <p><strong>Horario:</strong> Lunes a Viernes, 9:00 AM - 8:00 PM</p>
+
+        <iframe
+          src="https://www.google.com/maps?q=cbtis%20131%20leon%20gto&output=embed"
+          width="100%"
+          height="300"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+      </div>
+
+      <div class="sucursal">
+        <h3>🍷 Sucursal Norte</h3>
+        <p><strong>Dirección:</strong> Av. Panorama #450, León, Gto.</p>
+        <p><strong>Teléfono:</strong> +52 477 234 5678</p>
+        <p><strong>Horario:</strong> Todos los días, 11:00 AM - 10:00 PM</p>
+      </div>
+
+      <div class="sucursal">
+        <h3>🍽 Sucursal Sur</h3>
+        <p><strong>Dirección:</strong> Blvd. Aeropuerto #789, León, Gto.</p>
+        <p><strong>Teléfono:</strong> +52 477 345 6789</p>
+        <p><strong>Horario:</strong> Lunes a Sábado, 12:00 PM - 9:00 PM</p>
+      </div>
+
+      <h2>Envíanos un Mensaje</h2>
+      <form class="contact-form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Tu nombre completo" required />
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" placeholder="ejemplo@correo.com" required />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+
+        <button type="submit">Enviar Mensaje</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+<p>© 2025 Flavor Crown</p>
+        <p><small>Derechos reservados | CBTIS 131|Camacho Garcia Jezrael & Rodriguez Ortiz Emanuel </small></p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
