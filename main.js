@@ -123,3 +123,28 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 });
+
+// ==== CONTADOR DE PROMO ====
+const countdown = document.getElementById("countdown");
+
+// Define la fecha límite (por ejemplo, 3 días desde hoy)
+const endDate = new Date();
+endDate.setDate(endDate.getDate() + 3);
+
+function actualizarContador() {
+  const ahora = new Date().getTime();
+  const distancia = endDate - ahora;
+
+  if (distancia < 0) {
+    countdown.innerText = "¡Promoción terminada!";
+    return;
+  }
+
+  const dias = Math.floor(distancia / (1000 * 60 * 60 * 24));
+  const horas = Math.floor((distancia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
+
+  countdown.innerText = `${dias}d ${horas}h ${minutos}m`;
+}
+
+setInterval(actualizarContador, 1000);
