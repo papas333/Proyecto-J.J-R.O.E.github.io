@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menú - Flavor Crown</title>
+  <link rel="stylesheet" href="Estilito2.css" />
+  <link rel="icon" href="assets/logo.png" />
+</head>
+<body class="menu-page">
+
+  <!-- HEADER -->
+ <header>
+  <div class="logo">
+    <img src="assets/logo.png" alt="Logo Flavor Crown" class="logo-img" width="20px" height="20px">
+    <h1>Flavor Crown</h1>
+  </div>
+
+  </div>
+
+  <div class="menu-toggle" id="menu-toggle">
+    <span></span><span></span><span></span>
+  </div>
+
+  
+  <nav id="side-menu" class="side-menu">
+    <ul>
+      <li><a href="index.html">🏠 Inicio</a></li>
+      <li><a href="menu.html">🍽 Menú</a></li>
+      <li><a href="reservas.html">📅 Reservas</a></li>
+      <li><a href="acerca.html">ℹ️ Acerca de Nosotros</a></li>
+      <li><a href="contacto.html">📍 Contacto y Sucursales</a></li>
+      <li><a href="servicio.html">🚚 Servicio a Domicilio</a></li>
+      <li class="submenu">
+        🌐 Idioma:
+        <select id="idioma">
+          <option value="es">Español</option>
+          <option value="en">English</option>
+        </select>
+      </li>
+    </ul>
+    <div class="footer-menu">
+      <p>© 2025 Flavor Crown</p>
+      <p><small>Derechos reservados | CBTIS 131 | Camacho García Jezrael & Rodríguez Ortiz Emanuel</small></p>
+    </div>
+  </nav>
+</header>
+
+
+  <!-- MAIN -->
+  <main>
+    <!-- ====== PROMO BARRA SUPERIOR ====== -->
+<div class="promo-bar">
+  <p>🎉 ¡Aprovecha nuestro <span>25% de descuento</span> en el Menú Real! ⏰
+  <span id="countdown">02d 04h 32m</span></p>
+</div>
+
+<!-- ====== SECCIÓN DE PROMOCIONES ====== -->
+<section class="promos scroll-reveal">
+  <h2>Ofertas Especiales</h2>
+  <p class="promo-intro">Disfruta los mejores sabores con descuentos únicos por tiempo limitado.</p>
+
+  <div class="promos-grid">
+    <div class="promo-card">
+      <img src="assets/promo1.png" alt="Trolli fritos">
+      <h3>Trolli fritos</h3>
+      <p>Un banquete de pollo bañado en salsa misteriosa troll</p>
+      <span class="promo-descuento">-25%</span>
+    </div>
+
+    <div class="promo-card">
+      <img src="assets/promo2.png" alt="Scary candy">
+      <h3>Scary candy</h3>
+      <p>Perfecto para dos personas. Disfruta de la tenebrosa dulcura de este postre</p>
+      <span class="promo-descuento">-15%</span>
+    </div>
+
+    <div class="promo-card">
+      <img src="assets/promo3.png" alt="Puddin navideño">
+      <h3>Puddin navideño</h3>
+      <p>Una pequeña probada hacia el polo norte</p>
+      <span class="promo-descuento">-30%</span>
+    </div>
+  </div>
+</section>
+    <section class="menu-section">
+      <h2>🍴 Nuestro Menú Exclusivo</h2>
+      <p class="intro-text">Descubre la fusión de sabores que coronan tu experiencia culinaria.  
+      Cada platillo está preparado con ingredientes selectos y pasión artesanal. 👑</p>
+
+      <div class="platillos-grid">
+
+        <!-- PLATILLO 1 -->
+        <div class="platillo-card">
+          <img src="assets/platillos/clash.png" alt="Burger Royale">
+          <h3>Burguer Royale</h3>
+          <p>Jugoso corte premium bañado salsa de bebe dragon con un toque especial a chispitas.</p>
+          <span class="precio">$420 MXN</span>
+        </div>
+
+        <!-- PLATILLO 2 -->
+        <div class="platillo-card">
+          <img src="assets/platillos/amongus.png" alt="Among Us Hot Dog">
+          <h3>Among Us Hot Dog</h3>
+          <p>Hot dog artesanal con un toque sospechoso a impostor,muy "SUS" para cualquier ocasión.</p>
+          <span class="precio">$280 MXN</span>
+        </div>
+
+        <!-- PLATILLO 3 -->
+        <div class="platillo-card">
+          <img src="assets/platillos/bloxy.png" alt="Bloxy Cola">
+          <h3>Bloxy Cola</h3>
+          <p>Increible bebida quita sed y levanta robloxianos,apta para los caza eventos.</p>
+          <span class="precio">$350 MXN</span>
+        </div>
+
+        <!-- PLATILLO 4 -->
+        <div class="platillo-card">
+          <img src="assets/platillos/flanders.png" alt="Flan Ned Flanders">
+          <h3>Flan Ned Flanders</h3>
+          <p>Deleitante flan de ned flanders conmemorativo,homero lo aprueba.</p>
+          <span class="precio">$190 MXN</span>
+        </div>
+
+        <!-- PLATILLO 5 -->
+        <div class="platillo-card">
+          <img src="assets/platillos/ramen.png" alt="Platillo De Ramen y Oniguiri De Escandalosos">
+          <h3>Platillo Escandalosos</h3>
+          <p>Platillo gurmet de Oniguiris y Ramen con forma de tus osos favoritos, para amantes de la cocina de polar.</p>
+          <span class="precio">$220 MXN</span>
+        </div>
+
+        <!-- PLATILLO 6 -->
+        <div class="platillo-card">
+          <img src="assets/platillos/rick.png" alt="Pepinillos Gurmet">
+          <h3>Pepinillos Gurmet</h3>
+          <p>Riquisimo plato cubierto de la salsa de la tierra 398 con pepinillos rick,excelente para los aventureros.</p>
+          <span class="precio">$310 MXN</span>
+        </div>
+
+        <!-- PLATILLO 7 -->
+        <div class="platillo-card">
+          <img src="assets/platillos/lavachicken.png" alt="Lava Chicken">
+          <h3>Lava Chicken</h3>
+          <p>Delicioso pollito traido desde el mundo de minecraft,super picante y caliente.</p>
+          <span class="precio">$180 MXN</span>
+        </div>
+
+        <!-- PLATILLO 8 -->
+        <div class="platillo-card">
+          <img src="assets/platillos/split.png" alt="Mega Cacahuate">
+          <h3>Mega Cacahuate</h3>
+          <p>Postre salido de la cabernda del cacahuate con un toque dulce al estlo bob esponja.</p>
+          <span class="precio">$160 MXN</span>
+        </div>
+
+        <!-- PLATILLO 9 -->
+        <div class="platillo-card">
+          <img src="assets/platillos/zombie.png" alt="Copa Real">
+          <h3>Combate En el Jardin</h3>
+          <p>Selección exclusiva de nuestra reserva, perfecta para terminar una batalla con muchas ordas.</p>
+          <span class="precio">$240 MXN</span>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><div class="footer-menu">
+        <p>© 2025 Flavor Crown</p>
+        <p><small>Derechos reservados | CBTIS 131|Camacho Garcia Jezrael & Rodriguez Ortiz Emanuel </small></p>
+      </div></p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
+
+

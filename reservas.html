@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reservas - Flavor Crown</title>
+  <link rel="stylesheet" href="Estilito2.css" />
+  <link rel="icon" href="assets/logo.png" />
+</head>
+<body class="reservas-page">
+
+  <!-- HEADER -->
+  <header>
+  <div class="logo">
+    <img src="assets/logo.png" alt="Logo Flavor Crown" class="logo-img" width="20px" height="20px">
+    <h1>Flavor Crown</h1>
+  </div>
+
+  </div>
+
+  <div class="menu-toggle" id="menu-toggle">
+    <span></span><span></span><span></span>
+  </div>
+
+  
+  <nav id="side-menu" class="side-menu">
+    <ul>
+      <li><a href="index.html">🏠 Inicio</a></li>
+      <li><a href="menu.html">🍽 Menú</a></li>
+      <li><a href="reservas.html">📅 Reservas</a></li>
+      <li><a href="acerca.html">ℹ️ Acerca de Nosotros</a></li>
+      <li><a href="contacto.html">📍 Contacto y Sucursales</a></li>
+      <li><a href="servicio.html">🚚 Servicio a Domicilio</a></li>
+      <li class="submenu">
+        🌐 Idioma:
+        <select id="idioma">
+          <option value="es">Español</option>
+          <option value="en">English</option>
+        </select>
+      </li>
+    </ul>
+    <div class="footer-menu">
+      <p>© 2025 Flavor Crown</p>
+      <p><small>Derechos reservados | CBTIS 131 | Camacho García Jezrael & Rodríguez Ortiz Emanuel</small></p>
+    </div>
+  </nav>
+</header>
+
+
+  <!-- MAIN -->
+  <main>
+    <section class="reservas-section">
+      <h2>📅 Reserva tu Experiencia</h2>
+      <p class="intro-text">Vive una velada única en Flavor Crown. Completa tus datos y asegura tu lugar en nuestra mesa real. 👑</p>
+
+      <form id="form-reservas" class="form-reservas">
+        <label for="nombre">👤 Nombre Completo</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre..." required>
+
+        <label for="email">📧 Correo Electrónico</label>
+        <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+
+        <label for="telefono">📞 Teléfono</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Ej. 555 123 4567" required>
+
+        <label for="personas">🍷 Número de Personas</label>
+        <input type="number" id="personas" name="personas" min="1" max="20" required>
+
+        <label for="fecha">📆 Fecha</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="hora">🕓 Hora</label>
+        <input type="time" id="hora" name="hora" required>
+
+        <label for="mensaje">💬 Mensaje (opcional)</label>
+        <textarea id="mensaje" name="mensaje" rows="3" placeholder="¿Tienes alguna petición especial?"></textarea>
+
+        <button type="submit" class="btn-reserva">Confirmar Reserva</button>
+      </form>
+
+      <div class="confirmacion" id="confirmacion">
+        <p>🎉 ¡Tu reserva ha sido enviada con éxito!  
+        Gracias por elegir <strong>Flavor Crown</strong>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+   <p>© 2025 Flavor Crown</p>
+        <p><small>Derechos reservados | CBTIS 131|Camacho Garcia Jezrael & Rodriguez Ortiz Emanuel </small></p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
